@@ -6,9 +6,12 @@ fetch 5J2T
 hide /5J2T/*/*/HOH*
 
 // Colour secondary structure by type
-color red, ss h
-color yellow, ss s
-color green, ss l+''
+color red, chain A
+color brown, chain B
+color green, chain C
+color cyan, chain D
+color blue, chain E
+color violet, chain F
 
 // Light orange colour, for phosphorus
 set_color lora = [1.00, 0.60, 0.00]
