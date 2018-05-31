@@ -17,6 +17,6 @@ please tell me. I already know that:
 * GChemPaint
 * JChemPaint
 
-can't. Namely they cannot have the molecule imported by name.  
+can't. For starters, they cannot have the molecule imported by name.  
 
 If you like the artwork here please consider starring this repository and/or upvoting the artwork on openDesktop.org. 
