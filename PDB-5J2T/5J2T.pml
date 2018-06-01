@@ -1,8 +1,13 @@
+// Make sure there's nothing that will mess up this plotting.
+// This being said sometimes re-running this script will be required
+// to get the plot right.
 delete everything
+// Set background colour to white
 bg_color white
+// Fetch the molecule
 fetch 5J2T
 
-// Hide solvent
+// Hide solvent, who cares about the water molecules?
 hide /5J2T/*/*/HOH*
 
 // Colour secondary structure by type
@@ -14,8 +19,9 @@ color blue, chain E
 color violet, chain F
 
 // Light orange colour, for phosphorus
+// lora is short for light orange
 set_color lora = [1.00, 0.60, 0.00]
-// Light green for magnesium
+// lgreen = light green for magnesium
 set_color lgreen = [0.54, 1.00, 0.00]
 // Slightly different light green for calcium
 set_color calc = [0.24, 1.00, 0.00]
@@ -45,4 +51,3 @@ color white, /5J2T/*/*/MES/*H*
 color blue, /5J2T/*/*/G*P/*N*
 color blue, /5J2T/*/*/VLB/*N*
 color blue, /5J2T/*/*/MES/*N*
-
