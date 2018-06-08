@@ -1,1 +1,9 @@
 .*.swp
+*.cif
+*.pdb
+*1000x1000*
+*1366*768*
+*1600*900*
+*1920*1080*
+1PWC-colour-by-sec-struct-ser-shown-benzylpenicillin-open-*.{png,xcf}
+1PWC-colour-by-sec-struct-ser-shown-benzylpenicillin-open.pov-*
