@@ -23,9 +23,20 @@ set_color purple1 = [0.96, 0.60, 1.00]
 set_color purple2 = [1.00, 0.48, 1.00]
 set_color flr = [0.56, 0.96, 0.31]
 
-color red, ss h
-color yellow, ss s
-color red, ss l+''
+//color red, ss h
+//color yellow, ss s
+//color red, ss l+''
+//color purple,all
+
+select hydrophobes,(resn phe+met)
+show cartoon, (hydrophobes and (!name c+n+o))
+color blue,hydrophobes
+disable hydrophobes
+set cartoon_smooth_loops,0
+select aliphalics,(resn ala+gly+ile+leu+val)
+select hydrophilics,(resn arg+lys+his+glu+asp+asn+gln+thr+ser+cys+tyr)
+color purple,aliphatic
+color red,hydrophilic
 h_add r. DEX
 preset.ball_and_stick(selection='r. DEX', mode=1)
 
